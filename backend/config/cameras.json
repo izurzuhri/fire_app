@@ -1,0 +1,8 @@
+{
+  "cameras": [
+    {"camera_id": "cam_1", "name": "Webcam", "source": "0", "mode": "webcam"},
+    {"camera_id": "cam_2", "name": "Video File", "source": "./sample_fire.mp4", "mode": "file"},
+    {"camera_id": "cam_3", "name": "RTSP Cam", "source": "rtsp://example.com/stream1", "mode": "rtsp"},
+    {"camera_id": "cam_4", "name": "Mock Stream", "source": "mock", "mode": "mock"}
+  ]
+}
