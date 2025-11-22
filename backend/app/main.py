@@ -3,16 +3,9 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.api.routes import router as api_router
 from app.config import Settings, load_settings
+from app.dependencies import get_camera_manager, get_settings
 from app.services.camera_manager import CameraManager
 from app.services.inference import InferenceService
-
-
-def get_settings() -> Settings:
-    return app.state.settings
-
-
-def get_camera_manager() -> CameraManager:
-    return app.state.camera_manager
 
 
 app = FastAPI(title="Fire & Smoke Dashboard")

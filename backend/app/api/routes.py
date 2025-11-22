@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Depends
 
 from app.config import Settings
+from app.dependencies import get_settings
 from app.models.dto import CameraInfo
-from app.main import get_settings, get_camera_manager
 
 router = APIRouter(prefix="/api")
 
