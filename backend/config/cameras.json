@@ -1,0 +1,8 @@
+{
+  "cameras": [
+    {"camera_id": "cam_1", "name": "Exit Door", "source": "rtsp://example.com/stream1"},
+    {"camera_id": "cam_2", "name": "Storage Room", "source": "rtsp://example.com/stream2"},
+    {"camera_id": "cam_3", "name": "Front Entrance", "source": "rtsp://example.com/stream3"},
+    {"camera_id": "cam_4", "name": "Warehouse A", "source": "rtsp://example.com/stream4"}
+  ]
+}
